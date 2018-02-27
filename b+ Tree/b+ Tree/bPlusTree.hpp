@@ -20,6 +20,9 @@ public:
         
     }
     
+    void insertNode(const BPlusTreeNode& node);
+    void deleteNode(const BPlusTreeNode& node);
+    
 private:
     BPlusTreeNode *root;
 };
