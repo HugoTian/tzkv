@@ -1,0 +1,3 @@
+/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/CMakeFiles/levelDB.dir

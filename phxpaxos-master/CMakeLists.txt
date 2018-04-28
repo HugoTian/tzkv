@@ -1,0 +1,204 @@
+cmake_minimum_required(VERSION 3.10)
+project(phxpaxos_master)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(include)
+include_directories(include/phxpaxos)
+include_directories(plugin/include)
+include_directories(plugin/include/phxpaxos_plugin)
+include_directories(plugin/logger_google)
+include_directories(plugin/monitor)
+include_directories(sample/phxecho)
+include_directories(sample/phxelection)
+include_directories(sample/phxkv)
+include_directories(src/algorithm)
+include_directories(src/benchmark)
+include_directories(src/checkpoint)
+include_directories(src/comm)
+include_directories(src/communicate)
+include_directories(src/communicate/tcp)
+include_directories(src/config)
+include_directories(src/logstorage)
+include_directories(src/master)
+include_directories(src/node)
+include_directories(src/sm-base)
+include_directories(src/test)
+include_directories(src/ut)
+include_directories(src/utils)
+
+add_executable(phxpaxos_master
+        include/phxpaxos/breakpoint.h
+        include/phxpaxos/def.h
+        include/phxpaxos/log.h
+        include/phxpaxos/network.h
+        include/phxpaxos/node.h
+        include/phxpaxos/options.h
+        include/phxpaxos/sm.h
+        include/phxpaxos/storage.h
+        plugin/include/phxpaxos_plugin/logger_google.h
+        plugin/include/phxpaxos_plugin/monitor.h
+        plugin/logger_google/logger_google.cpp
+        plugin/logger_google/logger_google_impl.cpp
+        plugin/logger_google/logger_google_impl.h
+        plugin/monitor/monitor.cpp
+        plugin/monitor/monitor_bp.cpp
+        plugin/monitor/monitor_bp.h
+        sample/phxecho/echo_server.cpp
+        sample/phxecho/echo_server.h
+        sample/phxecho/echo_sm.cpp
+        sample/phxecho/echo_sm.h
+        sample/phxecho/main.cpp
+        sample/phxelection/election.cpp
+        sample/phxelection/election.h
+        sample/phxelection/election_main.cpp
+        sample/phxkv/def.h
+        sample/phxkv/kv.cpp
+        sample/phxkv/kv.h
+        sample/phxkv/kv_grpc_client.cpp
+        sample/phxkv/kv_grpc_client.h
+        sample/phxkv/kv_grpc_client_main.cpp
+        sample/phxkv/kv_grpc_server.cpp
+        sample/phxkv/kv_grpc_server.h
+        sample/phxkv/kv_grpc_server_main.cpp
+        sample/phxkv/kv_paxos.cpp
+        sample/phxkv/kv_paxos.h
+        sample/phxkv/kvsm.cpp
+        sample/phxkv/kvsm.h
+        sample/phxkv/log.cpp
+        sample/phxkv/log.h
+        src/algorithm/acceptor.cpp
+        src/algorithm/acceptor.h
+        src/algorithm/base.cpp
+        src/algorithm/base.h
+        src/algorithm/checkpoint_receiver.cpp
+        src/algorithm/checkpoint_receiver.h
+        src/algorithm/checkpoint_sender.cpp
+        src/algorithm/checkpoint_sender.h
+        src/algorithm/commitctx.cpp
+        src/algorithm/commitctx.h
+        src/algorithm/committer.cpp
+        src/algorithm/committer.h
+        src/algorithm/instance.cpp
+        src/algorithm/instance.h
+        src/algorithm/ioloop.cpp
+        src/algorithm/ioloop.h
+        src/algorithm/learner.cpp
+        src/algorithm/learner.h
+        src/algorithm/learner_sender.cpp
+        src/algorithm/learner_sender.h
+        src/algorithm/msg_counter.cpp
+        src/algorithm/msg_counter.h
+        src/algorithm/proposer.cpp
+        src/algorithm/proposer.h
+        src/benchmark/bench_db.cpp
+        src/benchmark/bench_main.cpp
+        src/benchmark/bench_server.cpp
+        src/benchmark/bench_server.h
+        src/benchmark/bench_sm.cpp
+        src/benchmark/bench_sm.h
+        src/benchmark/fsync_bench.cpp
+        src/checkpoint/cleaner.cpp
+        src/checkpoint/cleaner.h
+        src/checkpoint/cp_mgr.cpp
+        src/checkpoint/cp_mgr.h
+        src/checkpoint/replayer.cpp
+        src/checkpoint/replayer.h
+        src/comm/breakpoint.cpp
+        src/comm/comm_include.h
+        src/comm/commdef.h
+        src/comm/inside_options.cpp
+        src/comm/inside_options.h
+        src/comm/logger.cpp
+        src/comm/logger.h
+        src/comm/msg_transport.h
+        src/comm/options.cpp
+        src/communicate/tcp/event_base.cpp
+        src/communicate/tcp/event_base.h
+        src/communicate/tcp/event_loop.cpp
+        src/communicate/tcp/event_loop.h
+        src/communicate/tcp/message_event.cpp
+        src/communicate/tcp/message_event.h
+        src/communicate/tcp/notify.cpp
+        src/communicate/tcp/notify.h
+        src/communicate/tcp/tcp.cpp
+        src/communicate/tcp/tcp.h
+        src/communicate/tcp/tcp_acceptor.cpp
+        src/communicate/tcp/tcp_acceptor.h
+        src/communicate/tcp/tcp_client.cpp
+        src/communicate/tcp/tcp_client.h
+        src/communicate/communicate.cpp
+        src/communicate/communicate.h
+        src/communicate/dfnetwork.cpp
+        src/communicate/dfnetwork.h
+        src/communicate/network.cpp
+        src/communicate/udp.cpp
+        src/communicate/udp.h
+        src/config/config.cpp
+        src/config/config.h
+        src/config/config_include.h
+        src/config/inside_sm.h
+        src/config/system_v_sm.cpp
+        src/config/system_v_sm.h
+        src/logstorage/db.cpp
+        src/logstorage/db.h
+        src/logstorage/log_store.cpp
+        src/logstorage/log_store.h
+        src/logstorage/paxos_log.cpp
+        src/logstorage/paxos_log.h
+        src/logstorage/system_variables_store.cpp
+        src/logstorage/system_variables_store.h
+        src/master/master_mgr.cpp
+        src/master/master_mgr.h
+        src/master/master_sm.cpp
+        src/master/master_sm.h
+        src/master/master_variables_store.cpp
+        src/master/master_variables_store.h
+        src/node/group.cpp
+        src/node/group.h
+        src/node/node.cpp
+        src/node/pnode.cpp
+        src/node/pnode.h
+        src/node/propose_batch.cpp
+        src/node/propose_batch.h
+        src/node/test_propose_batch.cpp
+        src/sm-base/sm.cpp
+        src/sm-base/sm_base.cpp
+        src/sm-base/sm_base.h
+        src/test/test_main.cpp
+        src/test/test_server.cpp
+        src/test/test_server.h
+        src/test/test_sm.cpp
+        src/test/test_sm.h
+        src/tools/paxos_log_tools.cpp
+        src/tools/system_variables_tools.cpp
+        src/tools/vfile_fetch.cpp
+        src/ut/acceptor_ut.cpp
+        src/ut/db_ut.cpp
+        src/ut/make_class.cpp
+        src/ut/make_class.h
+        src/ut/mock_class.h
+        src/ut/nodeid_ut.cpp
+        src/ut/proposer_ut.cpp
+        src/ut/timer_ut.cpp
+        src/ut/ut_main.cpp
+        src/ut/wait_lock_ut.cpp
+        src/utils/bytes_buffer.cpp
+        src/utils/bytes_buffer.h
+        src/utils/concurrent.cpp
+        src/utils/concurrent.h
+        src/utils/crc32.cpp
+        src/utils/crc32.h
+        src/utils/notifier_pool.cpp
+        src/utils/notifier_pool.h
+        src/utils/serial_lock.cpp
+        src/utils/serial_lock.h
+        src/utils/socket.cpp
+        src/utils/socket.h
+        src/utils/timer.cpp
+        src/utils/timer.h
+        src/utils/util.cpp
+        src/utils/util.h
+        src/utils/utils_include.h
+        src/utils/wait_lock.cpp
+        src/utils/wait_lock.h)

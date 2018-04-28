@@ -25,7 +25,7 @@
 #include "leveldb/status.h"
 #include "leveldb/table.h"
 #include "leveldb/table_builder.h"
-#include "port/port.h"
+#include "port/port_posix.h"
 #include "table/block.h"
 #include "table/merger.h"
 #include "table/two_level_iterator.h"
@@ -1420,6 +1420,7 @@ bool DBImpl::GetProperty(const Slice& property, std::string* value) {
             stats_[level].micros / 1e6,
             stats_[level].bytes_read / 1048576.0,
             stats_[level].bytes_written / 1048576.0);
+          
         value->append(buf);
       }
     }

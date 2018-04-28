@@ -7,4 +7,10 @@
 //
 
 #include "bPlusTree.hpp"
+#include "Node.h"
 
+bool BPlusTree::validBPlusTree() {
+
+
+    }
+}

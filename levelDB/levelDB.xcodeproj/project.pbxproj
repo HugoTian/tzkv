@@ -258,6 +258,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
+					"include/leveldb/**",
 					include,
 					/usr/local.include,
 				);
@@ -270,6 +271,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
+					"include/leveldb/**",
 					include,
 					/usr/local.include,
 				);

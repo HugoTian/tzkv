@@ -10,21 +10,25 @@
 #define bPlusTree_hpp
 
 #include <stdio.h>
-class BPlusTreeNode {
-    
-};
+class Node;
 
-class BPlusTree {
+template<class T>
+class BPlusTree<T> {
 public:
     BPlusTree() {
         
     }
     
-    void insertNode(const BPlusTreeNode& node);
-    void deleteNode(const BPlusTreeNode& node);
+    void insertNode(const Node& node);
+    void deleteNode(const Node& node);
+
+    bool validBPlusTree();
+
     
 private:
-    BPlusTreeNode *root;
+    Node *root;
+    int order;
+
 };
 
 

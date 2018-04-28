@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="levelDB"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="levelDB">
+				<Option output="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/levelDB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/."/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/db"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/helpers/memenv"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/include/leveldb"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/port"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/port/win"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/table"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/util"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 levelDB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="levelDB/fast">
+				<Option output="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/levelDB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/."/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/db"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/helpers/memenv"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/include/leveldb"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/port"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/port/win"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/table"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/levelDB/util"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 levelDB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/levelDB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/autocompact_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/builder.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/builder.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/c.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/c_test.c">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/corruption_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_bench.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_impl.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_impl.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_iter.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_iter.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/db_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/dbformat.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/dbformat.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/dbformat_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/dumpfile.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/fault_injection_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/filename.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/filename.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/filename_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/leveldbutil.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/log_reader.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/log_reader.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/log_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/log_writer.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/log_writer.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/memtable.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/memtable.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/recovery_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/repair.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/skiplist_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/table_cache.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/table_cache.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_edit.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_edit.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_edit_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_set.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_set.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/version_set_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/write_batch.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/db/write_batch_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/doc/bench/db_bench_sqlite3.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/doc/bench/db_bench_tree_db.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/helpers/memenv/memenv.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/helpers/memenv/memenv.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/helpers/memenv/memenv_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/issues/issue178_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/issues/issue200_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/main.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/port/port_posix.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/port/port_posix.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/block.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/block.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/block_builder.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/block_builder.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/filter_block.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/filter_block.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/filter_block_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/format.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/format.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/iterator.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/merger.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/merger.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/table.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/table_builder.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/table_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/two_level_iterator.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/table/two_level_iterator.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/arena.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/arena.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/arena_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/bloom.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/bloom_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/cache.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/cache_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/coding.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/coding.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/coding_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/comparator.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/crc32c.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/crc32c.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/crc32c_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/env.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/env_posix.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/env_posix_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/env_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/filter_policy.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/hash.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/hash.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/hash_test.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/histogram.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/histogram.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/logging.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/logging.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/options.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/status.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/testharness.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/testharness.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/testutil.cc">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/util/testutil.h">
+			<Option target="levelDB"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/levelDB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

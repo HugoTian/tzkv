@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="phxpaxos_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="phxpaxos_master">
+				<Option output="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/phxpaxos_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include/phxpaxos_plugin"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/logger_google"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/monitor"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxelection"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/sm-base"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 phxpaxos_master"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="phxpaxos_master/fast">
+				<Option output="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/phxpaxos_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include/phxpaxos_plugin"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/logger_google"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/monitor"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxelection"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/sm-base"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut"/>
+					<Add directory="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 phxpaxos_master/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzhang/Desktop/tzkv/phxpaxos-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/breakpoint.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/def.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/log.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/network.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/node.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/options.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/include/phxpaxos/storage.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include/phxpaxos_plugin/logger_google.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/include/phxpaxos_plugin/monitor.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/logger_google/logger_google.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/logger_google/logger_google_impl.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/logger_google/logger_google_impl.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/monitor/monitor.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/monitor/monitor_bp.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/plugin/monitor/monitor_bp.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho/echo_server.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho/echo_server.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho/echo_sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho/echo_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxecho/main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxelection/election.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxelection/election.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxelection/election_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/def.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_client.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_client.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_client_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_server.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_server.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_grpc_server_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_paxos.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kv_paxos.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kvsm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/kvsm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/log.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/sample/phxkv/log.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/acceptor.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/acceptor.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/base.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/base.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/checkpoint_receiver.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/checkpoint_receiver.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/checkpoint_sender.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/checkpoint_sender.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/commitctx.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/commitctx.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/committer.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/committer.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/instance.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/instance.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/ioloop.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/ioloop.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/learner.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/learner.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/learner_sender.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/learner_sender.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/msg_counter.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/msg_counter.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/proposer.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/algorithm/proposer.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_db.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_server.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_server.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/bench_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/benchmark/fsync_bench.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/cleaner.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/cleaner.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/cp_mgr.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/cp_mgr.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/replayer.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/checkpoint/replayer.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/breakpoint.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/comm_include.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/commdef.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/inside_options.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/inside_options.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/logger.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/logger.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/msg_transport.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/comm/options.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/communicate.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/communicate.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/dfnetwork.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/dfnetwork.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/network.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/event_base.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/event_base.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/event_loop.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/event_loop.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/message_event.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/message_event.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/notify.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/notify.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp_acceptor.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp_acceptor.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp_client.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/tcp/tcp_client.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/udp.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/communicate/udp.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/config.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/config.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/config_include.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/inside_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/system_v_sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/config/system_v_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/db.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/db.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/log_store.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/log_store.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/paxos_log.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/paxos_log.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/system_variables_store.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/logstorage/system_variables_store.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_mgr.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_mgr.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_variables_store.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/master/master_variables_store.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/group.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/group.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/node.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/pnode.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/pnode.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/propose_batch.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/propose_batch.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/node/test_propose_batch.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/sm-base/sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/sm-base/sm_base.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/sm-base/sm_base.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test/test_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test/test_server.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test/test_server.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test/test_sm.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/test/test_sm.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/tools/paxos_log_tools.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/tools/system_variables_tools.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/tools/vfile_fetch.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/acceptor_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/db_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/make_class.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/make_class.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/mock_class.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/nodeid_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/proposer_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/timer_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/ut_main.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/ut/wait_lock_ut.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/bytes_buffer.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/bytes_buffer.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/concurrent.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/concurrent.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/crc32.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/crc32.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/notifier_pool.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/notifier_pool.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/serial_lock.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/serial_lock.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/socket.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/socket.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/timer.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/timer.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/util.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/util.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/utils_include.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/wait_lock.cpp">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/src/utils/wait_lock.h">
+			<Option target="phxpaxos_master"/>
+		</Unit>
+		<Unit filename="/Users/tzhang/Desktop/tzkv/phxpaxos-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
