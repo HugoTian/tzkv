@@ -1,6 +1,0 @@
-[package]
-name = "blinktree"
-version = "0.1.0"
-authors = ["Tian Zhang <tzhang@indeed.com>"]
-
-[dependencies]
