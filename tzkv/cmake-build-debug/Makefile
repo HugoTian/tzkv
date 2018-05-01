@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/tzhang/Desktop/tzkv/b+ Tree"
+CMAKE_SOURCE_DIR = /Users/tzhang/Desktop/tzkv/tzkv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles" "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named b__Tree
+# Target rules for targets named tzkv
 
 # Build rule for target.
-b__Tree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 b__Tree
-.PHONY : b__Tree
+tzkv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tzkv
+.PHONY : tzkv
 
 # fast build rule for target.
-b__Tree/fast:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/build
-.PHONY : b__Tree/fast
+tzkv/fast:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/build
+.PHONY : tzkv/fast
 
-b+_Tree/bPlusTree.o: b+_Tree/bPlusTree.cpp.o
+tzkv/bPlusTree/bPlusTree.o: tzkv/bPlusTree/bPlusTree.cpp.o
 
-.PHONY : b+_Tree/bPlusTree.o
-
-# target to build an object file
-b+_Tree/bPlusTree.cpp.o:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/bPlusTree.cpp.o
-.PHONY : b+_Tree/bPlusTree.cpp.o
-
-b+_Tree/bPlusTree.i: b+_Tree/bPlusTree.cpp.i
-
-.PHONY : b+_Tree/bPlusTree.i
-
-# target to preprocess a source file
-b+_Tree/bPlusTree.cpp.i:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/bPlusTree.cpp.i
-.PHONY : b+_Tree/bPlusTree.cpp.i
-
-b+_Tree/bPlusTree.s: b+_Tree/bPlusTree.cpp.s
-
-.PHONY : b+_Tree/bPlusTree.s
-
-# target to generate assembly for a file
-b+_Tree/bPlusTree.cpp.s:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/bPlusTree.cpp.s
-.PHONY : b+_Tree/bPlusTree.cpp.s
-
-b+_Tree/main.o: b+_Tree/main.cpp.o
-
-.PHONY : b+_Tree/main.o
+.PHONY : tzkv/bPlusTree/bPlusTree.o
 
 # target to build an object file
-b+_Tree/main.cpp.o:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/main.cpp.o
-.PHONY : b+_Tree/main.cpp.o
+tzkv/bPlusTree/bPlusTree.cpp.o:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/bPlusTree/bPlusTree.cpp.o
+.PHONY : tzkv/bPlusTree/bPlusTree.cpp.o
 
-b+_Tree/main.i: b+_Tree/main.cpp.i
+tzkv/bPlusTree/bPlusTree.i: tzkv/bPlusTree/bPlusTree.cpp.i
 
-.PHONY : b+_Tree/main.i
+.PHONY : tzkv/bPlusTree/bPlusTree.i
 
 # target to preprocess a source file
-b+_Tree/main.cpp.i:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/main.cpp.i
-.PHONY : b+_Tree/main.cpp.i
+tzkv/bPlusTree/bPlusTree.cpp.i:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/bPlusTree/bPlusTree.cpp.i
+.PHONY : tzkv/bPlusTree/bPlusTree.cpp.i
 
-b+_Tree/main.s: b+_Tree/main.cpp.s
+tzkv/bPlusTree/bPlusTree.s: tzkv/bPlusTree/bPlusTree.cpp.s
 
-.PHONY : b+_Tree/main.s
+.PHONY : tzkv/bPlusTree/bPlusTree.s
 
 # target to generate assembly for a file
-b+_Tree/main.cpp.s:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/b+_Tree/main.cpp.s
-.PHONY : b+_Tree/main.cpp.s
+tzkv/bPlusTree/bPlusTree.cpp.s:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/bPlusTree/bPlusTree.cpp.s
+.PHONY : tzkv/bPlusTree/bPlusTree.cpp.s
+
+tzkv/db_impl.o: tzkv/db_impl.cpp.o
+
+.PHONY : tzkv/db_impl.o
+
+# target to build an object file
+tzkv/db_impl.cpp.o:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/db_impl.cpp.o
+.PHONY : tzkv/db_impl.cpp.o
+
+tzkv/db_impl.i: tzkv/db_impl.cpp.i
+
+.PHONY : tzkv/db_impl.i
+
+# target to preprocess a source file
+tzkv/db_impl.cpp.i:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/db_impl.cpp.i
+.PHONY : tzkv/db_impl.cpp.i
+
+tzkv/db_impl.s: tzkv/db_impl.cpp.s
+
+.PHONY : tzkv/db_impl.s
+
+# target to generate assembly for a file
+tzkv/db_impl.cpp.s:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/db_impl.cpp.s
+.PHONY : tzkv/db_impl.cpp.s
+
+tzkv/main.o: tzkv/main.cpp.o
+
+.PHONY : tzkv/main.o
+
+# target to build an object file
+tzkv/main.cpp.o:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/main.cpp.o
+.PHONY : tzkv/main.cpp.o
+
+tzkv/main.i: tzkv/main.cpp.i
+
+.PHONY : tzkv/main.i
+
+# target to preprocess a source file
+tzkv/main.cpp.i:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/main.cpp.i
+.PHONY : tzkv/main.cpp.i
+
+tzkv/main.s: tzkv/main.cpp.s
+
+.PHONY : tzkv/main.s
+
+# target to generate assembly for a file
+tzkv/main.cpp.s:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/tzkv/main.cpp.s
+.PHONY : tzkv/main.cpp.s
 
 # Help Target
 help:
@@ -185,13 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... b__Tree"
-	@echo "... b+_Tree/bPlusTree.o"
-	@echo "... b+_Tree/bPlusTree.i"
-	@echo "... b+_Tree/bPlusTree.s"
-	@echo "... b+_Tree/main.o"
-	@echo "... b+_Tree/main.i"
-	@echo "... b+_Tree/main.s"
+	@echo "... tzkv"
+	@echo "... tzkv/bPlusTree/bPlusTree.o"
+	@echo "... tzkv/bPlusTree/bPlusTree.i"
+	@echo "... tzkv/bPlusTree/bPlusTree.s"
+	@echo "... tzkv/db_impl.o"
+	@echo "... tzkv/db_impl.i"
+	@echo "... tzkv/db_impl.s"
+	@echo "... tzkv/main.o"
+	@echo "... tzkv/main.i"
+	@echo "... tzkv/main.s"
 .PHONY : help
 
 

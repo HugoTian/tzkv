@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/tzhang/Desktop/tzkv/b+ Tree"
+CMAKE_SOURCE_DIR = /Users/tzhang/Desktop/tzkv/tzkv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/b__Tree.dir
+# Target rules for target CMakeFiles/tzkv.dir
 
 # All Build rule for target.
-CMakeFiles/b__Tree.dir/all:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/depend
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target b__Tree"
-.PHONY : CMakeFiles/b__Tree.dir/all
+CMakeFiles/tzkv.dir/all:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/depend
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target tzkv"
+.PHONY : CMakeFiles/tzkv.dir/all
 
 # Include target in all.
-all: CMakeFiles/b__Tree.dir/all
+all: CMakeFiles/tzkv.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/b__Tree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles" 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/b__Tree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/tzhang/Desktop/tzkv/b+ Tree/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/b__Tree.dir/rule
+CMakeFiles/tzkv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tzkv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tzhang/Desktop/tzkv/tzkv/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tzkv.dir/rule
 
 # Convenience name for target.
-b__Tree: CMakeFiles/b__Tree.dir/rule
+tzkv: CMakeFiles/tzkv.dir/rule
 
-.PHONY : b__Tree
-
-# clean rule for target.
-CMakeFiles/b__Tree.dir/clean:
-	$(MAKE) -f CMakeFiles/b__Tree.dir/build.make CMakeFiles/b__Tree.dir/clean
-.PHONY : CMakeFiles/b__Tree.dir/clean
+.PHONY : tzkv
 
 # clean rule for target.
-clean: CMakeFiles/b__Tree.dir/clean
+CMakeFiles/tzkv.dir/clean:
+	$(MAKE) -f CMakeFiles/tzkv.dir/build.make CMakeFiles/tzkv.dir/clean
+.PHONY : CMakeFiles/tzkv.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tzkv.dir/clean
 
 .PHONY : clean
 
