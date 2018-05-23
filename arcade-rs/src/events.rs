@@ -1,19 +1,23 @@
 macro_rules! struct_events {
     (/*Pattern Match*/
         keyboard: { $( $k_alias:ident : $k_sdl:ident ),* } // comma seperated argument, colon separated identifier
+        else: { $( $e_alias:ident : $e_sdl:pat ),* } // matching against this pattern
     ) => {
     use sdl2::EventPump;  // since we extern in main.rs
 
     pub struct ImmediateEvents {
-        $( pub $k_alias: Option<bool>), *
+        $( pub $k_alias : Option<bool> , )*
+        $( pub $e_alias : bool ),*
     }
 
     impl ImmediateEvents {
         pub fn new() -> ImmediateEvents {
-            $( $k_alias: None ),*
+            ImmediateEvents {
+                $( $k_alias: None , )*
+                $( $e_alias: false ),*
+            }
         }
     }
-
 
     pub struct Events {
         pump : EventPump,
@@ -55,6 +59,11 @@ macro_rules! struct_events {
                                     self.$k_alias = true;
                                 }
                             ),* // and add a comma after every option
+                            $(
+                                $e_sdl => {
+                                    self.now.$e_alias = true;
+                                }
+                            ), *
                             _ => {}
                         },
 
@@ -68,6 +77,7 @@ macro_rules! struct_events {
                             ),*
                             _ => {}
                         },
+
 
                         _ => {}
                     }
